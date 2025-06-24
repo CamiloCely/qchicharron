@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-
+#Gregue mis commits 
 class Cliente(models.Model):
     nombre = models.CharField(max_length=100)
     correo = models.EmailField()
